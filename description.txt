@@ -1,0 +1,49 @@
+Assignment Warm-up Task
+Task Description
+
+Implement the Checkers game from Task 1 using the Processing library for graphics and gradle as a dependency manager. You can access the documentation from here. As with any assignment, make sure that your work is your own, and do not share your code or solutions with other students.
+
+
+White pieces move down, and black pieces move up. White goes first. When a piece reaches the end of the board, it is promoted to a king and can then move in both directions. 
+
+Black king: 
+
+
+White King: 
+
+
+Piece movement is diagonally one space, or two spaces if they are able to jump over an adjacent piece to land in an empty cell. Pieces capture an opponent’s piece by jumping over it – the opponent’s piece is then removed from play.
+
+Players take turns to make moves. When the user clicks on a piece, available moves should be displayed with a blue highlight, and the selected piece’s cell is highlighted in green. If the user clicks on a different one of their pieces at this point, that other piece will become selected, and its available moves should be shown. If the user clicks on a blue highlighted cell (which is an available move) then the piece will move to that cell, and the player’s turn ends. You can choose what your board width should be, ranging from either 384px (minimum) to 768px (maximum).
+
+Marking Criteria (4%)
+
+Available moves are correctly determined and highlighted in blue when piece is selected (diagonal one space, or two spaces if able to jump over a piece)
+
+Pieces move from one cell to the next when an available move cell (blue highlighted) is clicked. Extension: Piece movement is smoothly animated transitioning from one cell to the next
+
+Pieces can jump over their own pieces and opponent’s pieces (jumping multiple times in one turn does not need to be implemented)
+
+When a piece jumps over an opponent’s piece, the opponent’s piece is captured (removed from play)
+
+When a piece moves to the end of the board, it is promoted to a king, and can move in both directions henceforth. Kings are shown with different graphics.
+
+-------------------------------
+
+Note that the size limit is 20MB so please follow the instructions carefully and do not submit any folders other than src.
+
+Please follow the instructions to submit your assignment:
+
+Zip the assignment files (src folder, build.gradle). Ensure these are in the root directory of the zip file (not inside a subfolder called 'assignment' or something else. To do this, highlight all of the files and right click -> send to zipped folder. Don't do this to the folder they are contained within, but the files themselves).
+
+Upload the zip file here
+
+Unzip the zip file (when uploading, select "upload and extract"). You should see ONLY src, build.gradle in the root directory of the workspace. Do not submit the build folder, or gradle folder. 
+
+Click SUBMIT to record your submission
+
+Thank you. :)
+
+Do not try and run your submission in the edstem workspace. There is no graphics capability in the edstem workspace. It's running on a server in the cloud which doesn't have a graphics card.
+
+To verify that your submission works, click on "Submissions" (top right corner), click the most recent submission, right click on your workspace and select "Download All", unzip the folder, and run gradle run. This is the process your marker will use for running your code. If you are unable to get your code to run this way, your marker will also be unable to get your code to run.
