@@ -30,12 +30,6 @@ This repository contains the classic **Checkers Game** using the **Processing** 
    gradle run
    ```
 
-## Game Rules Recap
-- Players alternate turns.
-- Pieces can only move diagonally.
-- Pieces are promoted to kings at the opposite board end.
-- Opponent’s pieces are removed after jumps.
+## Watch Video
+[Check out the gameplay video on YouTube](https://youtu.be/ihh6JDwSRXk)
 
-## Setup Requirements
-- **Processing Library:** Installed via Gradle.
-- Minimum board width of **384px** and maximum of **768px**.
